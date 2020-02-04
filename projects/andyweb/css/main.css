@@ -92,6 +92,9 @@ h1 {
     .navbar-collapse{
       justify-content: center;
     }
+    .navbar { 
+      background-color: #0000008c;
+    }
   }
 .first_Button{
   position: fixed;
