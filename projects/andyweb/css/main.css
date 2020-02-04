@@ -28,6 +28,7 @@ h1 {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+    background-color: #000000;
   }
   .logo{
 	position:absolute;
@@ -57,7 +58,18 @@ h1 {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
-  
+  @media screen and (min-height: 320px) and (max-height: 600px){
+    .iframe{
+      min-width: 260vw;
+    min-height: 100vh;
+    }
+  }
+  @media screen and (min-height: 365px) and (max-height: 700px){
+    .iframe{
+      min-width: 300vw;
+    min-height: 100vh;
+    }
+  }
   
   #header .overlay {
     position: absolute;
