@@ -43,7 +43,7 @@ h1 {
 .bg-dark {
   background: #0f0f0f !important;
 }
-  #header iframe {
+  .iframe {
     position: absolute;
     top: 50%;
     left: 50%;
