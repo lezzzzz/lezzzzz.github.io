@@ -43,12 +43,12 @@ h1 {
 .bg-dark {
   background: #0f0f0f !important;
 }
-  #header video {
+  #header iframe {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 170%;
+    min-height: 170%;
     width: auto;
     height: auto;
     z-index: 0;
